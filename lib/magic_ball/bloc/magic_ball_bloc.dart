@@ -13,6 +13,7 @@ class MagicBallBloc extends Bloc<MagicBallEvent, MagicBallState> {
     on<MagicBallFetchEvent>(magicBallFetchEvent);
   }
 
+  //fetching reading event(what after what after what)
   FutureOr<void> magicBallFetchEvent(
       MagicBallFetchEvent event, Emitter<MagicBallState> emit) async {
     try {

@@ -6,20 +6,21 @@ class MagicBallScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    //array of magic ball and some spacing (arrayed to not duplicate)
     var items = [
-      MagicBall(),
-      SizedBox(
-        height: 20,
-        width: 20,
+      const MagicBall(),
+      const SizedBox(
+        height: 30,
+        width: 30,
       ),
     ];
 
-    var infoText = Text(
-      "Tap on the ball or shake your device to get an ultimate answer from your destiny!",
+//information text on the bottom of tthe page
+    var infoText = const Text(
+      "Tap on the ball or shake your device to get an ultimate answer from magic ball!",
       style: TextStyle(
-        backgroundColor: Colors.deepPurple,
+        backgroundColor: Colors.black87,
         fontSize: 18,
-        // fontWeight: FontWeight.bold,
         color: Colors.white,
       ),
       textAlign: TextAlign.center,
@@ -39,6 +40,8 @@ class MagicBallScreen extends StatelessWidget {
           child: Center(
             child: LayoutBuilder(
               builder: (context, constraints) {
+                //checking device orientation
+                //horisontal
                 if (constraints.maxWidth > constraints.maxHeight) {
                   return Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -51,6 +54,7 @@ class MagicBallScreen extends StatelessWidget {
                     ],
                   );
                 } else {
+                  //vertical
                   return Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.center,

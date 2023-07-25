@@ -31,7 +31,6 @@ flutter:
   assets:
     - assets/images/ball.png
     - assets/images/back1.jpg
-    - assets/images/back2.jpg
     - assets/images/loading.gif
 
   fonts:
