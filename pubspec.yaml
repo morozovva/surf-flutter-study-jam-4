@@ -14,6 +14,10 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+  flutter_bloc: ^8.1.3
+  http: ^0.13.5
+  bloc: ^8.1.2
+  shake: ^2.2.0
 
 dev_dependencies:
   flutter_test:
@@ -23,3 +27,14 @@ dev_dependencies:
 flutter:
 
   uses-material-design: true
+
+  assets:
+    - assets/images/ball.png
+    - assets/images/back1.jpg
+    - assets/images/back2.jpg
+    - assets/images/loading.gif
+
+  fonts:
+      - family: Pixeleum
+        fonts:
+          - asset: assets/fonts/pixeleum-48.ttf
