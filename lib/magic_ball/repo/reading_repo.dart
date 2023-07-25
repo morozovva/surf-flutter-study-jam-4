@@ -23,7 +23,7 @@ class ReadingRepo {
       return reading; //result in needed format
     } catch (e) {
       log(e.toString());
-      return Reading("");
+      return Reading("Oh, it's too hard sorry:(\n($e)");
     }
   }
 }
