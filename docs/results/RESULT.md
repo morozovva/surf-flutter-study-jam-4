@@ -12,4 +12,4 @@ iOS, Android (обе должны работать без нареканий)
 
 # Ссылки на демонстрацию работы/скриншоты
 
-<img src="docs/assets/start.png" width=25% height=25%>
+<img src="/docs/assets/start.PNG" width=25% height=25%><img src="/docs/assets/loading.PNG" width=25% height=25%><img src="/docs/assets/error.PNG" width=25% height=25%><img src="/docs/assets/success!.PNG" width=25% height=25%><img src="/docs/assets/horisontal.PNG" width=50% height=50%>
